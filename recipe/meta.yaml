@@ -1,6 +1,6 @@
 {% set name = "databroker-pack" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "38cbd2112ad64c8b2034d62d9a754cda64800c57e7d5fa472f81c9609a4fdd80" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "2a69d38bc23ed3b6fc7d017fead5a6096a99428858dd8b77568d78309f9d0a1b" %}
 
 package:
   name: {{ name|lower }}
@@ -24,9 +24,9 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - databroker >=1.0.1
+    - databroker >=1.0.5
     - event-model
-    - intake >=0.5.5
+    - intake >=0.6.0
     - suitcase-jsonl
     - suitcase-msgpack
     - suitcase-utils
